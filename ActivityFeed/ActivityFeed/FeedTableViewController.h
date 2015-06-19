@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  FeedTableViewController.h
 //  ActivityFeed
 //
 //  Created by William Huang on 6/18/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface FeedTableViewController : UITableViewController
 
 @end
-

@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		562C17001B33B30800D33EB9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 562C16FF1B33B30800D33EB9 /* main.m */; };
 		562C17031B33B30800D33EB9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 562C17021B33B30800D33EB9 /* AppDelegate.m */; };
-		562C17061B33B30800D33EB9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 562C17051B33B30800D33EB9 /* ViewController.m */; };
 		562C17091B33B30800D33EB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 562C17071B33B30800D33EB9 /* Main.storyboard */; };
 		562C170B1B33B30800D33EB9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 562C170A1B33B30800D33EB9 /* Images.xcassets */; };
 		562C170E1B33B30800D33EB9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 562C170C1B33B30800D33EB9 /* LaunchScreen.xib */; };
 		562C171A1B33B30800D33EB9 /* ActivityFeedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 562C17191B33B30800D33EB9 /* ActivityFeedTests.m */; };
+		562C17251B33B5D500D33EB9 /* FeedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 562C17241B33B5D500D33EB9 /* FeedTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +32,14 @@
 		562C16FF1B33B30800D33EB9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		562C17011B33B30800D33EB9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		562C17021B33B30800D33EB9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		562C17041B33B30800D33EB9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		562C17051B33B30800D33EB9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		562C17081B33B30800D33EB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		562C170A1B33B30800D33EB9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		562C170D1B33B30800D33EB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		562C17131B33B30800D33EB9 /* ActivityFeedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ActivityFeedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		562C17181B33B30800D33EB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		562C17191B33B30800D33EB9 /* ActivityFeedTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActivityFeedTests.m; sourceTree = "<group>"; };
+		562C17231B33B5D500D33EB9 /* FeedTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedTableViewController.h; sourceTree = "<group>"; };
+		562C17241B33B5D500D33EB9 /* FeedTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,8 +81,7 @@
 		562C16FC1B33B30800D33EB9 /* ActivityFeed */ = {
 			isa = PBXGroup;
 			children = (
-				562C17041B33B30800D33EB9 /* ViewController.h */,
-				562C17051B33B30800D33EB9 /* ViewController.m */,
+				562C17261B33B5DF00D33EB9 /* ViewControllers */,
 				562C16FD1B33B30800D33EB9 /* Supporting Files */,
 			);
 			path = ActivityFeed;
@@ -117,6 +116,15 @@
 				562C17181B33B30800D33EB9 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		562C17261B33B5DF00D33EB9 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				562C17231B33B5D500D33EB9 /* FeedTableViewController.h */,
+				562C17241B33B5D500D33EB9 /* FeedTableViewController.m */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,9 +227,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				562C17061B33B30800D33EB9 /* ViewController.m in Sources */,
 				562C17031B33B30800D33EB9 /* AppDelegate.m in Sources */,
 				562C17001B33B30800D33EB9 /* main.m in Sources */,
+				562C17251B33B5D500D33EB9 /* FeedTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
