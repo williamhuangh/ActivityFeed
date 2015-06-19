@@ -14,6 +14,8 @@
 		562C170E1B33B30800D33EB9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 562C170C1B33B30800D33EB9 /* LaunchScreen.xib */; };
 		562C171A1B33B30800D33EB9 /* ActivityFeedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 562C17191B33B30800D33EB9 /* ActivityFeedTests.m */; };
 		562C17251B33B5D500D33EB9 /* FeedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 562C17241B33B5D500D33EB9 /* FeedTableViewController.m */; };
+		562C17291B33B79D00D33EB9 /* CreateActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 562C17281B33B79D00D33EB9 /* CreateActivityViewController.m */; };
+		562C172C1B33C01D00D33EB9 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 562C172B1B33C01D00D33EB9 /* LoginViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		562C17191B33B30800D33EB9 /* ActivityFeedTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActivityFeedTests.m; sourceTree = "<group>"; };
 		562C17231B33B5D500D33EB9 /* FeedTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedTableViewController.h; sourceTree = "<group>"; };
 		562C17241B33B5D500D33EB9 /* FeedTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedTableViewController.m; sourceTree = "<group>"; };
+		562C17271B33B79D00D33EB9 /* CreateActivityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateActivityViewController.h; sourceTree = "<group>"; };
+		562C17281B33B79D00D33EB9 /* CreateActivityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateActivityViewController.m; sourceTree = "<group>"; };
+		562C172A1B33C01D00D33EB9 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		562C172B1B33C01D00D33EB9 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +129,10 @@
 			children = (
 				562C17231B33B5D500D33EB9 /* FeedTableViewController.h */,
 				562C17241B33B5D500D33EB9 /* FeedTableViewController.m */,
+				562C17271B33B79D00D33EB9 /* CreateActivityViewController.h */,
+				562C17281B33B79D00D33EB9 /* CreateActivityViewController.m */,
+				562C172A1B33C01D00D33EB9 /* LoginViewController.h */,
+				562C172B1B33C01D00D33EB9 /* LoginViewController.m */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -228,8 +238,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				562C17031B33B30800D33EB9 /* AppDelegate.m in Sources */,
+				562C17291B33B79D00D33EB9 /* CreateActivityViewController.m in Sources */,
 				562C17001B33B30800D33EB9 /* main.m in Sources */,
 				562C17251B33B5D500D33EB9 /* FeedTableViewController.m in Sources */,
+				562C172C1B33C01D00D33EB9 /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
