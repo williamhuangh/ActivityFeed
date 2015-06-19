@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>663747A4-B73C-443F-8347-EA9C7C074365</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E5B205D309290368CD2D6FBDEB9C94D160842E2D</key>
+		<string>https://github.com/williamhuangh/ActivityFeed.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ActivityFeed/ActivityFeed.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E5B205D309290368CD2D6FBDEB9C94D160842E2D</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/williamhuangh/ActivityFeed.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E5B205D309290368CD2D6FBDEB9C94D160842E2D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E5B205D309290368CD2D6FBDEB9C94D160842E2D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ActivityFeed</string>
+		</dict>
+	</array>
+</dict>
+</plist>
